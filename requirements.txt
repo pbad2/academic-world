@@ -1,0 +1,6 @@
+dash
+pymongo
+neo4j
+mysql
+dotenv
+plotly
