@@ -1,0 +1,165 @@
+/* General Styles */
+body {
+    background-color: #dedfdf;
+    color: #97bae9; /* Default text color */
+    font-family: 'Roboto', sans-serif; 
+}
+
+h1, h4, h5 {
+    font-family: 'Open Sans', sans-serif;
+    color: #343a40; /* Darker text color for headers */
+}
+
+h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+h4, h5 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+/* Form and Input Styles */
+input[type="text"], input[type="number"], textarea, select {
+    font-size: 16px;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+    width: 100%;
+}
+
+input[type="text"]:focus, input[type="number"]:focus, textarea:focus, select:focus {
+    border-color: #f38908;
+    outline: none;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    border: none;
+}
+
+button.btn-primary {
+    background-color: #2df3d2;
+    color: #000000;
+}
+
+button.btn-primary:hover {
+    background-color: #0056b3;
+}
+
+/* Border for each card (widget) */
+.card {
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    border-radius: 10px;
+    border: 2px solid #2df3d2;
+}
+
+/* Border for buttons inside cards */
+.card-body button {
+    border-radius: 4px;
+    border: 1px solid #000000;
+}
+
+/* Add padding to the card body for better spacing */
+.card-body {
+    padding: 20px;
+}
+
+/* Add border for favorite manager input field */
+#favorite-input {
+    border: 2px solid #ced4da;
+    border-radius: 4px;
+    padding: 10px;
+}
+
+/* Add border to dropdowns */
+#favorite-type {
+    border: 2px solid #ced4da; 
+    border-radius: 4px;
+    padding: 10px;
+}
+
+
+/* Button Group Styles */
+button.btn-success {
+    background-color: #28a745;
+    color: white;
+}
+
+button.btn-danger {
+    background-color: #dc3545;
+    color: white;
+}
+
+button.btn-success:hover {
+    background-color: #218838;
+}
+
+button.btn-danger:hover {
+    background-color: #c82333;
+}
+
+/* Pie chart styling */
+.dcc-graph {
+    margin-top: 15px;
+    border-radius: 10px;
+}
+
+/* Navbar */
+.navbar {
+    background-color: #343a40;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.navbar a:hover {
+    background-color: #007bff;
+    border-radius: 5px;
+}
+
+/* Footer */
+footer {
+    background-color: #343a40;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+/* Responsive Layout for Smaller Screens */
+@media (max-width: 768px) {
+    .container {
+        padding: 10px;
+    }
+
+    .card {
+        margin: 10px 0;
+    }
+
+    h1 {
+        font-size: 28px;
+    }
+
+    button {
+        width: 100%;
+    }
+
+    .card-body h4 {
+        font-size: 18px;
+    }
+}
